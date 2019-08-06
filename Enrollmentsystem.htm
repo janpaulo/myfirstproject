@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost:3000/enrollments/new -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Enrollmentsystem</title>
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="Ve8uVJay01LEe5FjoKf5+C/1EyHLKZz53wITK/ti6EG3VrzmKOrU2w3n63NrciXL7tRxY+N9vUHZq87O13kfWg==">
+    
+
+    <link rel="stylesheet" media="all" href="./Enrollmentsystem_files/custom.self-46d39e918cf87d02cf84976572f6b8c93a41cd35a16b7aa4f89688517403fc81.css" data-turbolinks-track="reload">
+<link rel="stylesheet" media="all" href="./Enrollmentsystem_files/application.self-f0d704deea029cf000697e2c0181ec173a1b474645466ed843eb5ee7bb215794.css" data-turbolinks-track="reload">
+    <script src="./Enrollmentsystem_files/rails-ujs.self-2b8935521e2301b06b45bd42e623eb0c0acf76c3a6ba383b7429c6a2884f8c23.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/bootstrap.min.self-18024db0d6a0bc75ca740863a3b491b7f9b9cbd080ba3ee25e22265801d0b0c9.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/affix.self-b2bd74404ab3c627c5129dcdd3bdc2fc0a9d4bff4e1b6f1bae96412f9a1e9723.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/alert.self-7c7aa23778284da0e4aa395a0a6d858c7efd891c9312fe71908b28292654ac0c.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/button.self-b7a8ce9f47662b97ab74ef3dd416e93d3a4f644b252307a28231976a0149feef.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/carousel.self-c2c0ad2347d3fdd8447abd9d5792efed40ad5afadc5e0de3001e34904a6f68ce.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/collapse.self-4db094cc14a1aafa93e51e6f298115323037bb9e24c060dd0de52f27446f6227.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/dropdown.self-7efa4aa654357ae664a98ec52151c25cd4927eacd1fabe038d068d9344b62cbd.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/modal.self-4ca048907279f4bb9187ba2541ae5d03296917d5c42e8fef0b58ec31c8902f0f.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/scrollspy.self-e62629e47ba5fe8b7faaa745f2fef2ccdb1bfd56ffb4f95615684ef40c74bcc4.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/tab.self-7fbfa844201ceeb4b896e4d185a33df19a284fe461281b7c0f78dbea2ef6da5a.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/transition.self-3c74f1999fcbf39cfb240b67c9a9e900863859f82f53fb27e5a388fe5e1a1c5c.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/tooltip.self-82858d5843f55bfed321ea59fc5b180f3d2a8afc498ebc4d665561110b807875.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/popover.self-a1e6d4555fb912f0405099135eaddbe8273ba8f08323477a471d34419d57b446.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/activestorage.self-1ed4604ac2170045f1ffca4edb81a75246661555e4f9cf682bb8a21825e32e1c.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/enrollment.self-984aa1ccdc3ced31125900a0ee89826b1afa8e7f215a7312505c7dc21274c72b.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/enrollment.self-b1621e59ab232fa188d0954568cec2137ec3449ac38545e3165e000c8f55497e.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/enrollments.self-43574757fac63f62d998d79593a5c7dcdefe678aa8bbb2c728df4e72ef549263.js" data-turbolinks-track="reload"></script>
+<script src="./Enrollmentsystem_files/application.self-d9c1df0d36a69bf8167ebb20070284ed3c5f931e7f6efe185b0936aad00629a6.js" data-turbolinks-track="reload"></script>
+  </head><body><p class="notice"></p>
+       <p class="alert"></p>
+  
+
+
+      
+<!--
+********************************************************************
+* Responsive Transparent Navbar
+********************************************************************
+-->
+
+<div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+  <span class="glyphicon glyphicon-chevron-right" style="color:white;"></span>
+    
+
+
+  </button>
+       <a> </a><a class="navbar-brand" href="http://localhost:3000/">My Site</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="nav navbar-nav pull-right">
+<p class="navbar-text pull-right">
+
+</p>
+         <li><a class="fa fa-home" href="http://localhost:3000/">Home</a></li>
+         <li><a href="http://localhost:3000/">About Us</a></li>
+        <li> <a href="http://localhost:3000/">Profiles</a></li>
+        <li><a href="http://localhost:3000/enrollments/new#">Contact Us</a></li> 
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+  
+    <div class="titlenew">
+
+<h1>Student Information</h1>
+
+</div>
+<form action="http://localhost:3000/enrollments" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="Ve8uVJay01LEe5FjoKf5+C/1EyHLKZz53wITK/ti6EG3VrzmKOrU2w3n63NrciXL7tRxY+N9vUHZq87O13kfWg==">
+
+<!--  <div class="form-group">
+   <!--  <label for="enrollment_student_id">Student</label>
+    <input type="number" name="enrollment[student_id]" id="enrollment_student_id" /> 
+  </div> -->
+
+<div class="formstudent">
+      <div class="column studentform">
+          <div class="form-group">
+            <div class="control-label">
+            <label for="enrollment_First_name">First name</label>
+            </div>
+            <div class="control-label">
+            <input type="text" name="enrollment[fname]" id="enrollment_fname">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="control-label">
+            <label for="enrollment_Last_name">Last name</label>
+            </div>
+            <div class="control-label">
+              <input type="text" name="enrollment[lname]" id="enrollment_lname">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="control-label">
+            <label for="enrollment_Mobile_No">Mobile no</label>
+          </div>
+            <div class="control-label">
+              <input type="text" name="enrollment[mobile]" id="enrollment_mobile">
+          </div>
+          </div>
+
+          <div class="form-group">
+            <div class="control-label">
+            <label for="enrollment_Course">Course</label>
+            </div>
+            <div class="control-label">
+              <input type="text" name="enrollment[course]" id="enrollment_course">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="control-label">
+            <label for="enrollment_Sem_no">Sem no</label>
+            </div>
+            <div class="control-label">
+              <input type="text" name="enrollment[sem_no]" id="enrollment_sem_no">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="control-label">
+            <label for="enrollment_Year">Year</label>
+            </div>
+            <div class="control-label">
+              <input type="text" name="enrollment[year]" id="enrollment_year">
+          </div>
+          </div>
+
+          <div class="form-group">
+            <div class="control-label">
+            <label for="enrollment_Birthday">Birthday</label>
+            </div>
+            <div class="control-label">
+              <input type="text" name="enrollment[birthday]" id="enrollment_birthday">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="control-label">
+            <label for="enrollment_Address">Address</label>
+          </div>
+            <div class="control-label">
+            <input type="text" name="enrollment[address]" id="enrollment_address">
+          </div>
+          </div>
+
+          <div class="form-group">
+            <div class="control-label">
+            <label for="enrollment_Birth_place">Birth place</label>
+            </div>
+            <div class="control-label">
+              <input type="text" name="enrollment[birth_place]" id="enrollment_birth_place">
+            </div>
+          </div>
+
+          <div class="actions">
+            <input type="submit" name="commit" value="Create Enrollment" data-disable-with="Create Enrollment">
+            <a href="http://localhost:3000/enrollments">Student</a>
+
+          </div>
+
+</div>
+
+</div></form>
+
+
+  
+
+</body></html>

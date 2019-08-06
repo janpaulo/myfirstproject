@@ -1,0 +1,43 @@
+
+<!--
+********************************************************************
+* Responsive Transparent Navbar
+********************************************************************
+-->
+<!-- 
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+  <span class="glyphicon glyphicon-chevron-right" style="color:white;"></span>
+    
+
+
+  </button>
+       <a> <%= link_to "My Site", root_path, class: "navbar-brand" %></a>
+    </div>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="nav navbar-nav pull-right">
+<p class="navbar-text pull-right">
+<% if user_signed_in? %>
+  <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link' %>
+  <% else %>
+
+  <%= link_to('Login', new_user_session_path)  %>  
+  
+
+
+<% end %>
+</p>
+         <li><%= link_to "Home", root_path, class: "active", class: "fa fa-home" %></li>
+         <li><%= link_to "About Us", welcome_about_path %></li>
+        <li> <%= link_to "Profiles", profiles_path %></li>
+        <li><a href="#">Contact Us</a></li> 
+      </ul>
+    </div>
+  </div>
+</div>
+
+
